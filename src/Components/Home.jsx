@@ -64,28 +64,25 @@ const Home = () => {
                     <h4> ULTIMAS RESEÑAS</h4>
                 </div>
 
-            <div className="reviews">
-            {reviews.map ((reviews)=>{
-                    return (
-
-                <div className="reviewsContainer">
-                        <div className="imageReviewContainer">
-                            <img
-                                src={reviews.image}
-                                alt="Movies" />
-                            <div className="textReviewContainer">
-                                <h5>{reviews.name}</h5>
-                                <div className= "userReviewContainer">
-                                <i className= "userReviewIcon"><FontAwesomeIcon icon={faUser} /></i>
-                                {reviews.user}
-                                </div>
-                                <p>  {reviews.rank}       {reviews.review}</p>
-                            </div>
-                        </div>
+                <div className="reviews">
+    {reviews.map((review, index) => (
+        <div className="reviewsContainer" key={index}>
+            <div className="imageReviewContainer">
+                <img
+                    src={review.image}
+                    alt="Movies" />
+                <div className="textReviewContainer">
+                    <h5>{review.name}</h5>
+                    <div className="userReviewContainer">
+                        <i className="userReviewIcon"><FontAwesomeIcon icon={faUser} /></i>
+                        {review.user}
+                    </div>
+                    <p>{review.rank} {review.review}</p>
                 </div>
-                )
-            })}
-            </div>  
+            </div>
+        </div>
+    ))}
+</div>
     </section>
     </main >
     );
