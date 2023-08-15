@@ -4,11 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./CSS/Peliculas.css" 
 
 
-const API_KEY = process.env.React_App_Password;
-const BASE_URL = process.env.React_App_Base_URL;
+const API_KEY = process.env.RAEACT_APP_PASSWORD;
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 const Peliculas = () => {
-    
     
     const [popularMovies, setPopularMovies] = useState([]);
     const [upcomingMovies, setUpcomingMovies] = useState([]);

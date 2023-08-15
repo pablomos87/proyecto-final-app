@@ -4,8 +4,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Image, Row, Col } from "react-bootstrap";
 
 
-const API_KEY = process.env.React_App_Password;
-const BASE_URL = process.env.React_App_Base_URL;
+const API_KEY = process.env.REACT_APP_PASSWORD;
+const BASE_URL = process.env.REACT_APP_BASE_URL;
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 
@@ -24,7 +24,6 @@ const Ranking = () => {
   return (
     
     <>
-
 
       <div className="rankingTitleContainer container-fluid d-flex flex-column justify-content-center align-items-left">
         <h1 className="display-6 fw-bold  pb-0">RANKING</h1>
