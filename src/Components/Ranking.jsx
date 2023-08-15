@@ -4,6 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Image, Row, Col } from "react-bootstrap";
 
 
+
 const API_KEY = process.env.REACT_APP_PASSWORD;
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";

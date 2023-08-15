@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./CSS/Peliculas.css" 
 
 
-const API_KEY = process.env.RAEACT_APP_PASSWORD;
+const API_KEY = process.env.REACT_APP_PASSWORD;
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
-const Peliculas = () => {
+const Peliculas = () => {git add .
+    git commit -m "Primer commit"
     
     const [popularMovies, setPopularMovies] = useState([]);
     const [upcomingMovies, setUpcomingMovies] = useState([]);
