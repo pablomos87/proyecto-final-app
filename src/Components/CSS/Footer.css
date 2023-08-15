@@ -1,0 +1,25 @@
+.footerContainer {
+    padding-top: 5%;
+    background-color: hsl(210, 30%, 10%);
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to bottom,hsl(210, 30%, 6%) 30%,   hsl(210, 30%, 10%) 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textTitleFooter {
+    font-size: 1.4vw; 
+    margin-bottom: 1vw;
+    font-weight: bold;
+}
+
+.textFooter {
+    font-size: 1.2vw; 
+}
+
+.listFooter {
+    font-size: 1.2vw; 
+    text-decoration: underline;
+    color: white;
+}

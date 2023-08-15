@@ -1,0 +1,26 @@
+*{
+  
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:  hsl(210, 30%, 10%); 
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  color: #f8f8f8;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,90 @@
+.profilContainer {
+    background-color: hsl(210, 30%, 15%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cardContainer {
+
+    background-color: hsl(210, 30%, 10%); 
+    
+}
+
+.imageContainer {
+    
+    width: 10.41vw;
+}
+
+.profilUserImage {
+
+    width: 5.5vw;
+
+    filter: brightness(50);
+
+}
+
+.profilButton {
+    
+    overflow: visible;
+    width: 10vw;
+    height: 2.9vw;
+    font-size: 1.09vw;
+    font-weight: 400;
+
+}
+
+.dataUsuario {
+    margin-top: 9vw;
+}
+
+.dataUsuario h1 {
+
+    font-size: 2vw;
+}
+
+.dataUsuario p{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.infoUserContainer {
+    background-color: #f8f9fa;
+}
+.infoUserContainer p {
+    font-size: 1.1vw;
+}
+
+.profilOptionsContainer p {
+
+    font-size: 1.5vw;
+}
+
+
+.profilOptionsContainer a {
+
+    font-size: 1.2vw;
+}
+
+.myProfilContainer {
+
+    background-color: #f8f9fa;
+}
+
+.myProfilContainer p {
+
+    font-size: 1.4vw;    
+}
+
+.recentActivityContainer {
+
+    background-color: #f8f9fa;
+}
+
+.recentActivityContainer p {
+
+    font-size: 1.3vw;    
+}
+
+
+.optionsContainer a {
+    font-size: 1.3vw;    
+}

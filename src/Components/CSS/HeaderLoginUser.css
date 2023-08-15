@@ -1,0 +1,371 @@
+.headerUserContainer {
+    background-color: hsl(210, 30%, 10%);
+    color: #fff;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+    width: 100%;
+    margin: 0;
+
+}
+
+.navbarUserContainer {
+    padding: 0.3125rem;
+    background-color: hsl(210, 30%, 10%);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin: 0%;
+}
+
+.logoUserContainer {
+    padding-right: 2%;
+
+}
+
+.movieUserLogo {
+    width: 17.500rem;
+    height: 4.00rem;
+    filter: invert(100%);
+
+}
+
+.navUserContainer {
+
+    width: 70%;
+    padding: 0;
+    display: flex;
+    padding-right: 8%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.ulUserContainer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+}
+
+.liUserContainer {
+    display: inline-block;
+    margin-right: 0.0113rem;
+}
+
+.liUserContainer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-top: 20%;
+    font-size: 0.9rem;
+}
+
+.dropdownToggleBtn {
+
+    padding: 0.5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: hsl(210, 30%, 10%);
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    width: 15rem;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    z-index: 2;
+    padding-left: 1%;
+    border-left: solid hsl(210, 30%, 16%);
+    flex-grow: 1; 
+
+}
+
+.dropdownMenu a {
+
+    font-size: 1 rem;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+    align-content: left;
+    text-align: left;
+    cursor: pointer;
+    background-color: hsl(210, 30%, 10%);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-left: 1%;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
+.searchUserInputContainer {
+
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 1.5625rem;
+    height: 2rem;
+    width: 58%;
+
+}
+
+.searchUseInput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    width:60%;
+    margin-left: 5%;
+}
+
+
+
+@media screen and (max-width: 850px) {
+
+    .logoUserContainer {
+        padding-right: 20%;
+    }
+
+    .movieUserLogo {
+
+        width: 14.500rem;
+        height: 3.00rem;
+    }
+
+    .navUserContainer {
+
+        width: 80%;
+        padding: 0;
+        display: flex;
+        padding-right: 10%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+
+    .ulUserContainer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+
+    }
+
+    .liUserContainer {
+        display: inline-block;
+        margin-right: 0.0113rem;
+    }
+
+    .liUserContainer a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-weight: bold;
+        margin-top: 20%;
+        font-size: 0.8rem;
+
+    }
+
+
+    .dropdownToggleBtn {
+
+        padding: 0.3rem;
+        color: #fff;
+        font-size: 0.8rem;
+    }
+
+    .dropdownMenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: hsl(210, 30%, 10%);
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        padding-top: 3%;
+        z-index: 2;
+        padding-left: 1%;
+        border-left: solid hsl(210, 30%, 16%);
+
+    }
+
+    .dropdownMenu a {
+
+        padding-bottom: 5%;
+        padding-top: 10%;
+        text-decoration: none;
+        color: #fff;
+        justify-content: center;
+        align-content: left;
+        text-align: left;
+        cursor: pointer;
+        background-color: hsl(210, 30%, 10%);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding-left: 1%;
+        font-size: 0.7rem;
+
+
+    }
+
+    .searchUserInputContainer {
+
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 1.5625rem;
+        height: 1.3rem;
+        width: 45%;
+        font-size: 0.6rem;
+    }
+
+    .searchInputUser {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: white;
+        width: 45%;
+        margin-left: 1%;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+
+    .movieUserLogo {
+        width: 9.800rem;
+        height: 2.200;
+    }
+
+    .liUserContainer {
+        display: inline-block;
+        margin-right: 0.0113rem;
+    }
+
+    .liUserContainer a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 10px;
+        font-weight: bold;
+        margin-top: 20%;
+        font-size: 0.6rem;
+
+    }
+
+    .dropdownToggleBtn {
+
+        padding: 0.1rem;
+        color: #fff;
+        font-size: 0.6rem;
+
+    }
+
+    .dropdownMenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: hsl(210, 30%, 10%);
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        width: 18%;
+        padding-top: 3%;
+        z-index: 2;
+        padding-left: 1%;
+        border-left: solid hsl(210, 30%, 16%);
+    }
+
+    .dropdownMenu a {
+        padding-bottom: 5%;
+        padding-top: 10%;
+        text-decoration: none;
+        color: #fff;
+        justify-content: center;
+        align-content: left;
+        text-align: left;
+        cursor: pointer;
+        background-color: hsl(210, 30%, 10%);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding-left: 1%;
+        font-size: 0.5rem;
+    }
+
+    .searchUserInputContainer {
+
+        border: 1px solid #ccc;
+        border-radius: 1.5625rem;
+        height: 0.8rem;
+        width: 50%;
+        font-size: 0.4rem;
+    }
+
+    .searchInputUser {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: white;
+        width:100%;
+        margin-left: 1%;
+        font-size: 0.3rem;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .movieUserLogo {
+        width: 6.200rem;
+        height: 2.000;
+    }
+
+
+    .navUserContainer {
+
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       
+    }
+
+    .liUserContainer a {
+       
+        font-size: 0.4rem;
+        margin-right: 1%;
+        
+    }
+    .dropdownMenu {
+        height: 66.00rem;
+        width: 21%;
+        padding-top: 3%;
+        z-index: 2;
+        padding-left: 1%;
+        border-left: solid hsl(210, 30%, 16%);
+    }
+
+    .dropdownToggleBtn {
+
+        padding: 0.2rem;
+        color: #fff;
+        font-size: 0.4rem;
+        text-align: center;
+
+    }
+
+    .dropdownMenu a {
+        font-size: 0.4rem;
+    }
+
+}

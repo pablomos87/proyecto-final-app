@@ -1,0 +1,108 @@
+
+
+.rankingTitleContainer {
+
+    background-color: hsl(210, 30%, 6%);
+    border-top: 2% solid black;
+    border-bottom: 2% solid black;
+    height: 25vw;
+    width: 100vw;
+    color: #fff;
+}      
+
+.rankingTitleContainer h1{
+    font-size:2.7vw;
+}
+
+.rankingTitleContainer p {
+font-size: 1.6vw;
+}
+
+.rankingContainer {
+        padding-left: 13%;
+        padding-right: 13%;
+        background-color: hsl(210, 30%, 15%);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+        width: 100vw;
+    
+    }
+
+.rankingListContainer {
+
+    background-color: hsl(210, 30%, 6%);
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    border-style: groove black;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.list-group-item {
+    background-color:  hsl(210, 30%, 10%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    color:  #9aa5b1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2%;     
+    font-size: 1.2vw;
+    font-weight:normal;
+    font-stretch: condensed;
+    width: 100vw;
+    border-color:  hsl(210, 30%, 6%);
+    margin: 0;
+}
+
+.movieListRow{
+    width: 60vw;
+    
+}
+
+.list-group-item:first-child {
+    font-size: 1.3vw;
+    font-weight:bold;
+    padding-top: 5%;
+}
+
+.list-group-item:last-child {
+    font-size: 1.1vw;
+    font-weight:bold;
+    border-left:0;
+    padding-bottom: 5%;
+
+
+}
+
+.colImgContainer{
+    background-color: hsl(210, 30%, 10%);
+    width: 10vw;
+}
+
+.rowContainer {
+    width: 100vw;
+}
+
+.colTextContainer {
+    background-color: hsl(210, 30%, 10%);
+    width: 10vw;
+    
+}
+
+.movie-title {
+    
+    font-weight: bold;
+}
+
+.movieImg {
+    align-items: center;
+    width: 9vw;
+    padding-top: 15%;
+}
+
+@media (max-width: 800px) {
+
+    .rankingTitleContainer {
+      padding: 2% 5%;
+  }
+}
