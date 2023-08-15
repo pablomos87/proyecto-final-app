@@ -7,8 +7,7 @@ import "./CSS/Peliculas.css"
 const API_KEY = process.env.REACT_APP_PASSWORD;
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
-const Peliculas = () => {git add .
-    git commit -m "Primer commit"
+const Peliculas = () => {
     
     const [popularMovies, setPopularMovies] = useState([]);
     const [upcomingMovies, setUpcomingMovies] = useState([]);
