@@ -27,7 +27,7 @@ const Header = () => {
                         </div>
                     </Form> 
                     </div>
-            <Navbar.Toggle aria-controls= {"offcanvasNavbar-expand-${expand}"}/>
+            <Navbar.Toggle  aria-controls="offcanvasNavbar"/>
             <Navbar.Collapse className="navbarCollapse">
                 <nav className= "navContainer">
                 <ul className="ulContainer">
