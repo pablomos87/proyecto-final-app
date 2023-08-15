@@ -5,8 +5,8 @@ import { Image, Row, Col } from "react-bootstrap";
 
 
 
-const API_KEY = process.env.REACT_APP_PASSWORD;
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+const API_KEY = "4b57f82551215ffcf8b253cd8b40c71f";
+const BASE_URL =  "https://api.themoviedb.org/3";
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 
