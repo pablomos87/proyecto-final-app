@@ -77,6 +77,7 @@ const Signup = () => {
     localStorage.setItem("usuarioRegistrado", datosUsuarioJSON);
     alert("Registro con éxito");
     navigate("/InicioUsuario");
+    window.scrollTo(0, 0);
   };
 
 

@@ -190,11 +190,10 @@ padding-bottom: 0;
     padding-top: 3%;
     padding-left: 2%;
     padding-right: 2%;
-    border-radius: 0.5555555555555556vw;
+    border-radius: 0.3vw;
     color: #ccc;
     width: 28vw;
     height: 13vw;
-
 }
 
 .userReviewContainer {
