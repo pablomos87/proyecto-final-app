@@ -6,12 +6,13 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 
 
-const usuarioJSON = localStorage.getItem("usuarioRegistrado");
-const usuario = JSON.parse(usuarioJSON);
-const usuarioNombre = usuario ? usuario.usuario : "";
-
 const HeaderUsuario = () => {
-  const [showMenu, setShowMenu] = useState(false);
+
+  const usuarioJSON = localStorage.getItem("usuarioRegistrado");
+  const usuario = JSON.parse(usuarioJSON);  
+  const usuarioNombre = usuario.usuario;
+
+const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
