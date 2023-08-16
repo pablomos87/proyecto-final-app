@@ -1,6 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import ("./CSS/Login.css");
 
+
 const Login = () => {
+
+
+const navigate = useNavigate();
 
     const handleLoginSubmit = (event) => {
         event.preventDefault();
@@ -9,10 +14,10 @@ const Login = () => {
         
         if (username === "juan_perez" && password === "1234") {
             alert("Bienvenido");
-            window.location.href = "./UsuarioLogin";
+            navigate ("/UsuarioLogin");
         } else {
             alert("Error");
-             window.location.href = "./Error";
+            navigate ("/Error");
         }
     };
 

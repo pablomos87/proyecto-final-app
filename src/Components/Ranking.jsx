@@ -4,9 +4,8 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import { Image, Row, Col } from "react-bootstrap";
 
 
-
-const API_KEY = "4b57f82551215ffcf8b253cd8b40c71f";
-const BASE_URL =  "https://api.themoviedb.org/3";
+const API_KEY = process.env.REACT_APP_PASSWORD;
+const BASE_URL =  process.env.REACT_APP_BASE_URL;
 const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
 
@@ -48,12 +47,12 @@ const Ranking = () => {
                     />
                   </Col>
                   <Col className= "colTextContainer align-items-center align-content-center text-align-center w-50 ">
-                  <ListGroup.Item className="movie-title align-items-center align-content-center border-0  fw-bold">
+                  <ListGroup.Item className="movieListGroup movie-title align-items-center align-content-center border-0  fw-bold">
                     <span className="movie-number border-0">{index + 1}. </span>
                     {movie.title} </ListGroup.Item>
-                    <ListGroup.Item className= "border-0">({movie.release_date})</ListGroup.Item>
-                    <ListGroup.Item className= "border-0">Puntaje: {movie.vote_average}</ListGroup.Item>
-                    <ListGroup.Item>Votos: {movie.vote_count}</ListGroup.Item>
+                    <ListGroup.Item className= "movieListGroup border-0">({movie.release_date})</ListGroup.Item>
+                    <ListGroup.Item className= "movieListGroup border-0">Puntaje: {movie.vote_average}</ListGroup.Item>
+                    <ListGroup.Item className= "movieListGroup">Votos: {movie.vote_count}</ListGroup.Item>
                   </Col>
                 </Row>
               

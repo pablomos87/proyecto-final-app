@@ -114,17 +114,17 @@ font-size: 1vw;
     align-items: center;
     width: 50%;
     margin-top: 5%;
+
     
 }
 button {
-    padding: 0.5vw 1vw;
+    padding: 0.1vw 0.8vw;
     font-size: 1.3vw;
     text-align: center;
     background-color:  #273a4d;
     color: #f8f8f8;
-    width: 100%;
+    width: 90%;
     margin-top: 5%;
-
 }
 
 .signUpFormContainer input,

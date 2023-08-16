@@ -3,10 +3,6 @@ import React from 'react';
 import { Container, Row, Col, Card, Button, Image } from "react-bootstrap";
 import userImage from "./Images/User.png"
 
-
-
-
-
 const InicioUsuario = () => {
 
   const usuarioJSON = localStorage.getItem("usuarioRegistrado");

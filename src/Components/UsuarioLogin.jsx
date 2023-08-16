@@ -62,27 +62,28 @@ const UsuarioLogin = () => {
                   </div>
                   <Row>
                     <Col className="d-flex flex-column justify-content-center align-items-center">
-                      <ListGroup className="recentActivityList">
-                        <ListGroup.Item className="listGroupRecentActivityItem d-flex justify-content-between">
+                      <ListGroup className="recentActivityList border-1">
+                        <ListGroup.Item className="recentActivityListItem d-flex justify-content-between">
                           <p className="fw-normal">juanperez le gustó la reseña ★★★★★ de julilopez of Mission: Impossible – Dead Reckoning Part One</p>
                           <p className="align-content-center d-flex justify-content-end ps-1 w-25">3 días</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className="listGroupRecentActivityItem d-flex justify-content-between">
+                        <ListGroup.Item className="recentActivityListItem d-flex justify-content-between">
                           <p className=" fw-normal">juanperez puntuó Riders ★★½</p>
                           <p className="align-content-center d-flex justify-content-end ps-1 w-25">4 días</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className="listGroupRecentActivityItem d-flex justify-content-between">
+                        <ListGroup.Item className="recentActivityListItem d-flex justify-content-between">
                           <p className="fw-normal">juanperez comentó en su reseña de Oppenheimer</p>
                           <p className="align-content-center d-flex justify-content-end ps-1 w-25">5 días</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className="listGroupRecentActivityItem d-flex justify-content-between">
+                        <ListGroup.Item className="recentActivityListItem d-flex justify-content-between">
                           <p className="fw-normal">juanperez vio y puntuó a Sympathy for the Devil ★★★½ </p>
                           <p className="align-content-center d-flex justify-content-end ps-1 w-25">6 días</p>
                         </ListGroup.Item>
-                        <ListGroup.Item className="listGroupRecentActivityItem d-flex justify-content-between">
-                          <p className="fw-normal">juanperez sigue a nahue-pereyra</p>
+                        <ListGroup.Item className="recentActivityListItem d-flex justify-content-between">
+                          <p className="fw-normal">juanperez sigue a nahue-pereyra </p>
                           <p className="align-content-center d-flex justify-content-end ps-1 w-25">1 semana</p>
                         </ListGroup.Item>
+                      
                       </ListGroup>
                     </Col>
                   </Row>

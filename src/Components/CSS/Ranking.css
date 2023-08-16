@@ -59,13 +59,13 @@ font-size: 1.6vw;
     
 }
 
-.list-group-item:first-child {
+.movieListGroup:first-child {
     font-size: 1.3vw;
     font-weight:bold;
     padding-top: 5%;
 }
 
-.list-group-item:last-child {
+.movieListGroup:last-child {
     font-size: 1.1vw;
     font-weight:bold;
     border-left:0;

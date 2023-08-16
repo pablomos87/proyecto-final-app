@@ -9,7 +9,7 @@
 }
 
 .navbarUserContainer {
-    padding: 0.3125rem;
+    padding: 0.42vw;
     background-color: hsl(210, 30%, 10%);
     justify-content: space-between;
     align-items: center;
@@ -51,23 +51,27 @@
 
 .liUserContainer {
     display: inline-block;
-    margin-right: 0.0113rem;
+    margin-right:  0.0126vw;
 }
 
 .liUserContainer a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 0.70vw 1vw;
     font-weight: bold;
     margin-top: 20%;
-    font-size: 0.9rem;
+    font-size: 1.3vw;
 }
 
 .dropdownToggleBtn {
 
-    padding: 0.5rem 1rem;
+    padding: 0.55vw 1.8vw;
     color: #fff;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3vw;
 
 }
 
@@ -105,7 +109,7 @@
     width: 100%;
     padding-left: 1%;
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 1vw;
 
 }
 
@@ -173,16 +177,15 @@
         padding: 10px 10px;
         font-weight: bold;
         margin-top: 20%;
-        font-size: 0.8rem;
+        font-size: 1.5vw;
 
     }
 
 
     .dropdownToggleBtn {
 
-        padding: 0.3rem;
         color: #fff;
-        font-size: 0.8rem;
+        font-size: 1.6vw;
     }
 
     .dropdownMenu {
@@ -259,7 +262,7 @@
         padding: 10px 10px;
         font-weight: bold;
         margin-top: 20%;
-        font-size: 0.6rem;
+        font-size: 1.7vw;
 
     }
 
@@ -267,7 +270,7 @@
 
         padding: 0.1rem;
         color: #fff;
-        font-size: 0.6rem;
+        font-size: 1.7vw;
 
     }
 

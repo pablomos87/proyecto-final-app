@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <Routes>
-        {/* Grupo de rutas que mostrarán el Header común */}
         <Route
           path="/*"
           element={

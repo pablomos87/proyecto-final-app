@@ -1,5 +1,6 @@
 import "./CSS/Signup.css";
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
   
@@ -14,8 +15,9 @@ const Signup = () => {
   const [generoUsuario, setGeneroUsuario] = useState("");
   const [passwordUsuario, setPasswordUsuario] = useState("");
   const [confirmPasswordUsuario, setConfirmPasswordUsuario] = useState("");
-
-
+  
+  const navigate = useNavigate();
+  
   const cargarDatos = () => {
     console.log("El usuario se cargó a la database");
   
@@ -74,7 +76,7 @@ const Signup = () => {
     const datosUsuarioJSON = JSON.stringify(datosUsuario);
     localStorage.setItem("usuarioRegistrado", datosUsuarioJSON);
     alert("Registro con éxito");
-    window.location.href = "./InicioUsuario";
+    navigate("/InicioUsuario");
   };
 
 

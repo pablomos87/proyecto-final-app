@@ -77,15 +77,18 @@
     width: 100%;
 }
 
-.listGroupRecentActivityItem {
+.recentActivityListItem {
 
     background-color: #f8f9fa;
     color: black;
-    width: 100%;
+    width: 99%;
+    border: solid 1% black;
 
 }
 
-.listGroupRecentActivityItem p {
-    font-size: 1.1vw;;
+.recentActivityListItem p {
+    font-size: 1vw;;
     margin-left:1%;
 }
+
+

@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./CSS/Peliculas.css" 
 
 
-const API_KEY = "4b57f82551215ffcf8b253cd8b40c71f";
-const BASE_URL =  "https://api.themoviedb.org/3";
+const API_KEY = process.env.REACT_APP_PASSWORD;
+const BASE_URL =  process.env.REACT_APP_BASE_URL;
 
 const Peliculas = () => {
     

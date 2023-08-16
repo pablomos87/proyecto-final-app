@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import React from "react";
 import "./CSS/Error.css";
 
@@ -11,7 +11,7 @@ return (
        <h1>Error</h1>
     <p className="lead">El nombre de usuario o la contraseña es incorrecto.</p>
     <p className="lead">
-      <a href="/Login" className="btn btn-lg btn-light fw-bold border-white bg-white">Intentar de nuevo</a>
+      <buttom className="btn btn-lg btn-light fw-bold border-white bg-white"> <Link to="/Login"> Intentar de nuevo </Link> </buttom>
     </p>
    
     </div>

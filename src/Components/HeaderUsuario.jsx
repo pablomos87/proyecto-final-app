@@ -4,20 +4,19 @@ import logo from "./Images/logo.png";
 import "./CSS/HeaderUsuario.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+
+
 const usuarioJSON = localStorage.getItem("usuarioRegistrado");
 const usuario = JSON.parse(usuarioJSON);
-
-const usuarioNombre = usuario.usuario;
-
+const usuarioNombre = usuario ? usuario.usuario : "";
 
 const HeaderUsuario = () => {
-
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
-
   };
+
 
 
   return (
