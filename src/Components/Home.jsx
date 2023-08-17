@@ -65,6 +65,7 @@ const Home = () => {
                 </div>
 
                 <div className="reviews">
+                    
     {reviews.map((review, index) => (
         <div className="reviewsContainer" key={index}>
             <div className="imageReviewContainer">

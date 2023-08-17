@@ -11,11 +11,11 @@
 }      
 
 .rankingTitleContainer h1{
-    font-size:2.7vw;
+    font-size:2.5vw;
 }
 
 .rankingTitleContainer p {
-font-size: 1.6vw;
+font-size: 1.4vw;
 }
 
 .rankingContainer {
@@ -103,6 +103,99 @@ font-size: 1.6vw;
 @media (max-width: 800px) {
 
     .rankingTitleContainer {
-      padding: 2% 5%;
+
+        height: 30vw;
+        padding: 2% 5%;
+    }  
+
+  
+
+  .rankingTitleContainer h1{
+    font-size:4vw;
+}
+
+.rankingTitleContainer p {
+font-size: 2vw;
+
+}
+
+.list-group-item {
+   
+    font-size: 1.9vw;
+    
+}
+
+.movieListGroup:first-child {
+    font-size: 1.8vw;
+    
+}
+
+.movieListGroup:last-child {
+    font-size: 1.7vw;
+    
+
+}
+
+.colImgContainer{
+    width: 12vw;
+    height: auto;
+    align-items: center;
+}
+
+
+.movieImg {
+    align-items: center;
+    width: 10vw;
+    padding-top: 15%;
+    height: auto;
+}
+
+
+}
+
+@media (max-width: 600px) {
+    
+
+    .rankingTitleContainer {
+    height: 40vw;  
   }
+
+  .rankingTitleContainer h1{
+    font-size:5vw;
+}
+
+.rankingTitleContainer p {
+font-size: 3vw;
+}
+
+.list-group-item {
+   
+    font-size: 2.7vw;
+    
+}
+
+.movieListGroup:first-child {
+    font-size: 2.6vw;
+    
+}
+
+.movieListGroup:last-child {
+    font-size: 2.5vw;
+    
+}
+
+.colImgContainer{
+    width: 15vw;
+    height: auto;
+    align-items: center;
+}
+
+.movieImg {
+    align-items: center;
+    width: 14vw;
+    padding-top: 15%;
+    height: auto;
+}
+
+
 }

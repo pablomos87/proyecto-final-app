@@ -128,7 +128,7 @@ const Signup = () => {
                   type="text"
                   id="usuarioNombre"
                   name="usuario"
-                  placeholder="Ingresa tu nombre de usuario"
+                  placeholder="Ingresa tu usuario"
                   className="form-control"
                   required
                   value={usuarioNombre}

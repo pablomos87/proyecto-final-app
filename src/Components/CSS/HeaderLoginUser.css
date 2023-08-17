@@ -63,15 +63,21 @@
     font-size: 1.3vw;
 }
 
-.dropdownToggleBtn {
-
-    padding: 0.55vw 1.8vw;
-    color: #fff;
-    cursor: pointer;
-    justify-content: center;
+.dropdownToggleContainer {
+    width: 40%;
     align-items: center;
     text-align: center;
+    
+
+}
+
+.dropdownToggleBtn {
+
+    padding: 0.45vw 1.5vw;
+    color: #fff;
+    cursor: pointer;
     font-size: 1.3vw;
+    align-content: center;
 
 }
 
