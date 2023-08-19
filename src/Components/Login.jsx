@@ -15,6 +15,7 @@ const navigate = useNavigate();
         if (username === "juan_perez" && password === "1234") {
             alert("Bienvenido");
             navigate ("/profile-user-01");
+            window.scrollTo(0, 0);
         } else {
             alert("Error");
             navigate ("/error-login");

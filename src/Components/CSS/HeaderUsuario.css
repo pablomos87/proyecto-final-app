@@ -242,7 +242,9 @@
     .dropdownMenu a {
         
         font-size: 2.1vw;
-        padding-bottom: 20%;
+        padding-bottom: 30%;
+        justify-content:center;
+        text-align: center;
     }
 
     .searchUserInputContainer {
