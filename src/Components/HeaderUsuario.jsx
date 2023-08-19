@@ -51,12 +51,13 @@ const [showMenu, setShowMenu] = useState(false);
             </div>
     
         </div>
-                  <a href="#action1">Peliculas</a>
-                  <a href="#action2">Ranking</a>
-                  <a href="#action3">Reseñas</a>
-                  <a href="#action3">Puntajes</a>
-                  <a href="#action3">Recomendaciones</a>
-               
+        <Link to="/peliculas">Peliculas</Link>
+        <Link to="/ranking">Ranking</Link> 
+        <Link to="/in-construction-site">Reseñas</Link> 
+        <Link to="/in-construction-site">Puntajes</Link> 
+        <Link to="/in-construction-site">Favoritas</Link> 
+                  
+        
                 </li>
               )}
             </div>

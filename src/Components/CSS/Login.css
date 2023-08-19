@@ -130,8 +130,6 @@
     }
 }
 
-
-
 @media (max-width: 600px) {
 
     .loginTitleContainer {
@@ -149,17 +147,18 @@
     }
 
     .formContainer {
-        font-size: 1.9vw;
+        font-size: 2.1vw;
     }
 
     .inputContainer Input {
       
-        font-size: 1.9vw;
+        font-size: 2.1vw;
     
     }
 
     .formButton {
-        font-size: 1.8vw;
+        font-size: 2.1vw;
+        font-weight: bold;
     }
 }
 

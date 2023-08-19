@@ -76,7 +76,7 @@ const Signup = () => {
     const datosUsuarioJSON = JSON.stringify(datosUsuario);
     localStorage.setItem("usuarioRegistrado", datosUsuarioJSON);
     alert("Registro con éxito");
-    navigate("/InicioUsuario");
+    navigate("/profile-user-02");
     window.scrollTo(0, 0);
   };
 

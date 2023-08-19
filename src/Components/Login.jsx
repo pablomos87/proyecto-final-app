@@ -14,11 +14,10 @@ const navigate = useNavigate();
         
         if (username === "juan_perez" && password === "1234") {
             alert("Bienvenido");
-            navigate ("/UsuarioLogin");
-            window.scrollTo(0, 0);
+            navigate ("/profile-user-01");
         } else {
             alert("Error");
-            navigate ("/Error");
+            navigate ("/error-login");
         }
     };
 

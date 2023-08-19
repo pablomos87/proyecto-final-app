@@ -23,3 +23,37 @@
     text-decoration: underline;
     color: white;
 }
+
+@media (max-width: 800px) {
+
+    .textTitleFooter {
+        font-size: 2vw; 
+        
+    }
+    
+    .textFooter {
+        font-size: 1.8vw; 
+    }
+    
+    .listFooter {
+        font-size: 1.8vw; 
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .textTitleFooter {
+        font-size: 3.2vw; 
+        
+    }
+    
+    .textFooter {
+        font-size: 3vw; 
+    }
+    
+    .listFooter {
+        font-size: 3vw; 
+       
+    }
+}

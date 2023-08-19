@@ -12,6 +12,8 @@ import HeaderUsuario from "./Components/HeaderUsuario";
 import UsuarioLogin from "./Components/UsuarioLogin";
 import Error from "./Components/Error";
 import HeaderLogin from "./Components/HeaderLoginUser";
+import Construccion from "./Components/Construccion";
+import ScrollToTop from "./ScrollToTop";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -19,7 +21,9 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
       <Routes>
+      
         <Route
           path="/*"
           element={
@@ -27,11 +31,11 @@ function App() {
               <Header />
               <Routes>
                 <Route index element={<Home />} />
-                <Route path="/Home" element={<Home />} />
-                <Route path="/Login" element={<Login />} />
-                <Route path="/Signup" element={<Signup />} />
-                <Route path="/Peliculas" element={<Peliculas />} />
-                <Route path="/Ranking" element={<Ranking />} />
+                <Route path="/home" element={<Home />} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
+                <Route path="/peliculas" element={<Peliculas />} />
+                <Route path="/ranking" element={<Ranking />} />
               </Routes>
               <Footer />
             </>
@@ -39,7 +43,7 @@ function App() {
         />
 
         <Route
-          path="/InicioUsuario"
+          path="/profile-user-02"
           element={
             <>
               <HeaderUsuario />
@@ -50,7 +54,7 @@ function App() {
         />
         
         <Route
-          path="/UsuarioLogin"
+          path="/profile-user-01"
           element={
             <>
               <HeaderLogin />
@@ -61,8 +65,11 @@ function App() {
         />
         
 
-        <Route path="/Error" element={<Error />} />
+        <Route path="/error-login" element={<Error />} />
 
+        <Route path="/in-construction-site" element={<Construccion />} />
+        
+        
       </Routes>
 
   

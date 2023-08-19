@@ -14,7 +14,7 @@ const Header = () => {
         <header>
            <Navbar data-bs-theme="dark" expand="lg" className="navbarContainer">
             <div className="logoContainer">
-                <Link to="/Home"> <img className="movieLogo" src={logo} alt="logo"/> </Link> 
+                <Link to="/home"> <img className="movieLogo" src={logo} alt="logo"/> </Link> 
             </div>
               <div className="searchBarContainer-1">
                         <Form className="formSearchBar">
@@ -31,11 +31,11 @@ const Header = () => {
             <Navbar.Collapse className="navbarCollapse">
                 <nav className= "navContainer">
                 <ul className="ulContainer">
-                    <li className="liContainer"> <Link to="/Signup">Sign Up</Link></li>
-                    <li className="liContainer"> <Link to="/Login">Log In</Link>
+                    <li className="liContainer"> <Link to="/signup">Sign Up</Link></li>
+                    <li className="liContainer"> <Link to="/login">Log In</Link>
                     </li>
-                    <li className="liContainer"><Link to="/Peliculas">Peliculas</Link> </li>
-                    <li className="liContainer"><Link to="/Ranking">Ranking</Link> </li>
+                    <li className="liContainer"><Link to="/peliculas">Peliculas</Link> </li>
+                    <li className="liContainer"><Link to="/ranking">Ranking</Link> </li>
                     <div className="searchBarContainer-2">
                         <Form className="formSearchBar">
                         <div className="formSearchInput">

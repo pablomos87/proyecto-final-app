@@ -1,35 +1,36 @@
 import "./CSS/UsuarioLogin.css";
 import React from 'react';
 import { Container, Row, Col, Card, Button, Image, ListGroup } from "react-bootstrap";
-import userLoginImage from "./Images/UsuarioLogin.png"
+import userLoginImage from "./Images/UsuarioLogin.png";
+import { Link } from "react-router-dom";
 
 
 const UsuarioLogin = () => {
 
   return (
     <>
-      <div className="profilLoginContainer gradient-custom-2 w-100">
-        <Container className="py-5 h-100 w-100">
-          <Row className="justify-content-center align-items-center h-100">
-            <Col lg="9" xl="7">
+      <div className="loginHeroProfileContainer gradient-custom-2 w-100">
+        <Container className="loginProfileContainer  h-100 w-100">
+          <Row className="loginProfileRow justify-content-center align-items-center h-100">
+            <Col className="loginProfileCol" lg="9" xl="7">
               <Card>
-                <div className="cardLoginContainer rounded-top text-white d-flex flex-row">
-                  <div className="imageContainer ms-4 mt-5 d-flex flex-column justify-content-center">
-                    <div className="justify-content-center text-center">
-                      <Image className="profilUserLoginImage"
+                <div className="loginCardContainer text-white d-flex flex-row w-100">
+                  <div className="loginImageContainer ms-4 mt-3 d-flex flex-column justify-content-center  align-items-center">
+                    <div className="justify-content-center text-center align-items-center">
+                      <Image className="loginProfileUserImage"
                         src={userLoginImage}
                         alt="userImage" />
                     </div>
-                    <Button className="profilLoginButton" variant="light" size="sm">
-                      Editar mis datos
+                    <Button className="loginProfileButton align-items-center justify-content-center align-content-center mb-2 p-0" variant="light">
+                      Editar datos
                     </Button>
                   </div>
-                  <div className="dataLoginUsuario ms-3">
+                  <div className="loginDataUser">
                     <h1>Juan Pérez </h1>
                     <p>Buenos Aires (Argentina)</p>
                   </div>
                 </div>
-                <div className="infoUserLoginContainer p-4 text-black">
+                <div className="loginInfoUserContainer p-4 text-black">
                   <div className="d-flex justify-content-end text-center py-1">
                     <div className="px-3">
                       <p className="mb-1 h5">140</p>
@@ -41,15 +42,15 @@ const UsuarioLogin = () => {
                     </div>
                   </div>
                 </div>
-                <Card.Body className="profilUserOptionsContainer text-black p-4">
+                <Card.Body className="loginProfileUserOptionsContainer text-black p-4">
                   <div className="mb-5">
                     <p className="lead fw-normal mb-1 fw-bold">Mi perfil</p>
-                    <div className="myProfilUserContainer  p-4 link-body-emphasis">
-                      <p className="font-italic mb-0 text-body-emphasis lead text-decoration-underline"> Reseñas</p>
-                      <p className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Puntuaciones</p>
-                      <p className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas favoritas</p>
-                      <p className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas vistas</p>
-                      <p className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas recomendadas</p>
+                    <div className="myLoginProfileUserContainer  p-4 link-body-emphasis d-flex flex-column">
+                    <Link to="/in-construction-site" className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Reseñas</Link>
+                    <Link to="/in-construction-site" className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Puntuacions</Link>
+                    <Link to="/in-construction-site" className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas favoritas</Link>
+                    <Link to="/in-construction-site" className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas vistas</Link>
+                    <Link to="/in-construction-site" className="font-italic mb-0 text-body-emphasis lead text-decoration-underline">Películas recomendadas</Link>
                     </div>
                   </div>
                   <div className="d-flex justify-content-between align-items-center mb-4">

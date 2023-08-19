@@ -4,3 +4,23 @@
     background-color:  hsl(210, 30%, 6%);
     color: #fff;
 }
+.errorTextContainer h1{
+
+    font-size: 5vw;
+}
+
+.errorTextContainer p {
+
+    font-size: 2vw;
+}
+.errorButtomContainer {
+
+    margin-top: 15%;
+}
+.errorButtom a {
+
+    color: hsl(210, 30%, 6%);
+    font-size: 1.7vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

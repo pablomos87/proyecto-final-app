@@ -10,10 +10,9 @@ return (
     <div className="errorTextContainer px-3 text-center d-flex flex-column justify-content-center">
        <h1>Error</h1>
     <p className="lead">El nombre de usuario o la contraseña es incorrecto.</p>
-    <p className="lead">
-      <buttom className="btn btn-lg btn-light fw-bold border-white bg-white"> <Link to="/Login"> Intentar de nuevo </Link> </buttom>
-    </p>
-   
+    <div className= "errorButtomContainer">
+      <buttom className="errorButtom btn btn-lg btn-light fw-bold border-white bg-white"> <Link to="/login"> Intentar de nuevo </Link> </buttom>
+    </div>
     </div>
     </div>
   );

@@ -20,7 +20,7 @@
 }
 
 .singUpTitleContainer p {
-    font-size: 1.4vw;
+    font-size: 1.4npvw;
 }
 
 .signUpContainer {
@@ -199,6 +199,15 @@ button {
         font-size: 3vw;
     }
 
+    .signUpFormContainer {
+
+        
+        width: 85vw;
+        height: auto;
+        
+        
+        }
+        
 
     .signUpFormContainer input,
     .signUpFormContainer label,
@@ -208,14 +217,16 @@ button {
     }
 
     .signUpInputsContainer {
-        width: 27vw;
-        padding: 0.5vw;
+        width: 32vw;
+        padding: 0.2vw;
+        margin-right: 1vw;
+        height: auto;
         
         
     }
     button {
         
-        font-size: 2.1vw;
+        font-size: 2.4vw;
     }
 
 

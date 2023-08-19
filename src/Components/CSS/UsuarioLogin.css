@@ -1,74 +1,83 @@
-.profilLoginContainer {
+.loginHeroProfileContainer {
     background-color: hsl(210, 30%, 15%);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     ;
 }
 
-.cardLoginContainer {
-
-    background-color: hsl(210, 30%, 10%); 
-
-}
-
-.imageLoginContainer {
+.loginProfileContainer {
     
-    width: 10.41vw;
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.profilUserLoginImage {
+.loginCardContainer {
+
+    background-color: hsl(210, 30%, 10%);  
+}
+
+.loginImageContainer {
+    
+    width: 14vw;
+}
+
+.loginProfileUserImage {
 
     align-items: center;
-    width: 8.5vw;
+    width: 11vw;
     opacity: 0.9;
 }
 
-.profilLoginButton {
+.loginProfileButton {
 
     overflow: visible;
     width: 10vw;
     height: 2.9vw;
     font-size: 1.09vw;
     font-weight: 400;
+    margin-bottom: 12%;
 }
 
-.dataLoginUsuario {
+.loginDataUser {
     margin-top: 9vw;
+    width: auto;
 }
 
-.dataLoginUsuario h1 {
+.loginDataUser h1 {
     font-size: 2vw;
 }
 
-.dataLoginUsuario p {
+.loginDataUser p {
         font-size: 1.3vw;
         font-weight: 400;
 }
 
-.infoUserLoginContainer {
+.loginInfoUserContainer {
     background-color: #f8f9fa;
 }
 
-.infoUserLoginContainer p {
+.loginInfoUserContainer p {
     font-size: 1.1vw;
 }
 
-.profilUserOptionsContainer p {
+.loginProfileUserOptionsContainer p {
 
     font-size: 1.5vw;
 }
 
-.profilUserOptionsContainer a {
+.loginProfileUserOptionsContainer a {
 
     font-size: 1.2vw;
 }
 
-.myProfilUserContainer {
+.myLoginProfileUserContainer {
 
     background-color: #f8f9fa;
 }
 
-.myProfilUserContainer p {
-    font-size: 1.3vw;
+.myLoginProfileUserContainer a {
+    font-size: 1.4vw;
 }
 
 .recentActivityList {
@@ -91,4 +100,151 @@
     margin-left:1%;
 }
 
+
+@media (max-width: 800px) {
+
+.loginHeroProfileContainer {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .loginProfileContainer {
+        
+        width: 90vw;
+        max-width: 90vw;
+        
+    }
+    
+
+    .loginImageContainer {
+    
+        padding: 0;
+        margin: 0;
+        margin-right: 3%;
+      
+    }
+    
+    .loginProfileUserImage {
+    
+        width: 13vw;  
+        height: 13vw;   
+        margin-bottom: 4%;   
+    }
+    
+    .loginProfileButton {
+
+        overflow: visible;
+        width: 14vw;
+        height: 4.5vw;
+        font-size: 1.8vw;
+        justify-content: center;
+        font-weight: 500;   
+    }
+    
+   
+    .loginDataUser h1 {
+        font-size: 3.5vw;
+    }
+    
+    .loginDataUser p {
+            font-size: 2.4vw;
+            font-weight: 400;
+            
+    }
+   
+    .loginInfoUserContainer p {
+        font-size: 2vw;
+    }
+    
+    .loginProfileUserOptionsContainer p {
+    
+        font-size: 2.3vw;
+    }
+    
+    .loginProfileUserOptionsContainer a {
+    
+        font-size: 2.2vw;
+    }
+    
+ 
+    
+    .myLoginProfileUserContainer a {
+        font-size: 2.3vw;
+    }
+    
+   
+    
+    .recentActivityListItem p {
+        font-size: 2vw;;
+        
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .loginImageContainer {
+    
+        width: 18vw;
+       
+    }
+    
+    .loginProfileUserImage {
+    
+        width: 17vw;  
+        height: 17vw;   
+        margin-bottom: 4%;   
+    }
+    
+    .loginProfileButton {
+
+        width: 18vw;
+        height: 5vw;
+        font-size: 2.5vw;
+        justify-content: center;
+        font-weight: 500;   
+    }
+    
+   
+    .loginDataUser h1 {
+        font-size: 4.5vw;
+    }
+    
+    .loginDataUser p {
+            font-size: 3.1vw;
+            font-weight: 400;
+            
+    }
+   
+    .loginInfoUserContainer p {
+        font-size: 3vw;
+    }
+    
+    .loginProfileUserOptionsContainer p {
+    
+        font-size: 3.3vw;
+    }
+    
+    .loginProfileUserOptionsContainer a {
+    
+        font-size: 3.2vw;
+    }
+    
+ 
+    
+    .myLoginProfileUserContainer a {
+        font-size: 3.2vw;
+    }
+    
+   
+    
+    .recentActivityListItem p {
+        font-size: 2.7vw;;
+        
+    }
+
+}
 

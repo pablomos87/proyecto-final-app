@@ -1,20 +1,26 @@
-.profilContainer {
+.profileHeroContainer {
     background-color: hsl(210, 30%, 15%);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.profileContainer {
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .cardContainer {
 
-    background-color: hsl(210, 30%, 10%); 
-    
+    background-color: hsl(210, 30%, 10%);
+
 }
 
 .imageContainer {
-    
+
     width: 10.41vw;
 }
 
-.profilUserImage {
+.profileUserImage {
 
     width: 5.5vw;
 
@@ -22,26 +28,27 @@
 
 }
 
-.profilButton {
-    
+.profileButton {
+
     overflow: visible;
     width: 10vw;
     height: 2.9vw;
     font-size: 1.09vw;
     font-weight: 400;
+    
 
 }
 
-.dataUsuario {
+.dataUser {
     margin-top: 9vw;
 }
 
-.dataUsuario h1 {
+.dataUser h1 {
 
     font-size: 2vw;
 }
 
-.dataUsuario p{
+.dataUser p {
     font-size: 1.3vw;
     font-weight: 400;
 }
@@ -49,42 +56,181 @@
 .infoUserContainer {
     background-color: #f8f9fa;
 }
+
 .infoUserContainer p {
     font-size: 1.1vw;
 }
 
-.profilOptionsContainer p {
+.profileOptionsContainer p {
 
     font-size: 1.5vw;
 }
 
 
-.profilOptionsContainer a {
+.profileOptionsContainer a {
 
     font-size: 1.2vw;
 }
 
-.myProfilContainer {
+.myProfileContainer {
 
     background-color: #f8f9fa;
 }
 
-.myProfilContainer p {
+.myProfileContainer a {
 
-    font-size: 1.4vw;    
+    font-size: 1.4vw;
 }
 
 .recentActivityContainer {
 
     background-color: #f8f9fa;
+
 }
 
 .recentActivityContainer p {
 
-    font-size: 1.3vw;    
+    font-size: 1.3vw;
+}
+
+.optionsContainer a {
+    font-size: 1.3vw;
 }
 
 
-.optionsContainer a {
-    font-size: 1.3vw;    
+@media (max-width: 800px) {
+
+    .profileHeroContainer {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .profileContainer {
+        width: 90vw;
+        max-width: 90vw;
+        
+    }
+
+    .imageContainer {
+
+        width: 15vw;
+    }
+
+
+    .profileUserImage {
+
+        width: 8vw;
+    }
+
+    .profileButton {
+        font-weight: 500;
+        width: 14vw;
+        height: 4.5vw;
+        font-size: 1.8vw;
+    }
+
+    .dataUser h1 {
+
+        font-size: 3.5vw;
+    }
+
+    .dataUser p {
+        font-size: 2.4vw;
+        font-weight: 400;
+    }
+
+    .infoUserContainer p {
+        font-size: 2vw;
+    }
+
+    .profileOptionsContainer p {
+
+        font-size: 2.3vw;
+    }
+
+
+    .profileOptionsContainer a {
+
+        font-size: 2.2vw;
+    }
+
+    .myProfileContainer a {
+
+        font-size: 2.3vw;
+    }
+
+
+    .recentActivityContainer p {
+
+        font-size: 2.3vw;
+    }
+
+
+    .optionsContainer a {
+        font-size: 2.3vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .imageContainer {
+
+        width: 19vw;
+    }
+
+    .profileUserImage {
+
+        width: 12vw;
+    }
+
+    .profileButton {
+
+        width: 18vw;
+        height: 5vw;
+        font-size: 2.5vw;
+        font-weight: 500;
+
+    }
+
+    .dataUser h1 {
+
+        font-size: 4.5vw;
+    }
+
+    .dataUser p {
+        font-size: 2.9vw;
+        font-weight: 400;
+    }
+
+    .infoUserContainer p {
+        font-size: 3.1vw;
+    }
+
+    .profileOptionsContainer p {
+
+        font-size: 3.2vw;
+    }
+
+    .profileOptionsContainer a {
+
+        font-size: 3vw;
+    }
+
+    .myProfileContainer a {
+
+        font-size: 3.2vw;
+    }
+
+    .recentActivityContainer p {
+
+        font-size: 3.2vw;
+    }
+
+
+    .optionsContainer a {
+        font-size: 3.2vw;
+    }
 }
