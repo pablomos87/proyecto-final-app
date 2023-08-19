@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import "./CSS/Error.css";
+import { Button } from 'react-bootstrap';
 
 
 const Error = () => {
@@ -10,8 +11,11 @@ return (
     <div className="errorTextContainer px-3 text-center d-flex flex-column justify-content-center">
        <h1>Error</h1>
     <p className="lead">El nombre de usuario o la contraseña es incorrecto.</p>
-    <div className= "errorButtomContainer">
-      <buttom className="errorButtom btn btn-lg btn-light fw-bold border-white bg-white"> <Link to="/login"> Intentar de nuevo </Link> </buttom>
+    <div className= "errorButtonContainer">
+    <Button className="errorButton btn-light fw-bold border-white bg-white w-50" variant="secondary" active>
+    <Link to="/login"> REGRESAR </Link>
+      </Button>
+      
     </div>
     </div>
     </div>

@@ -67,7 +67,7 @@ const Peliculas = () => {
         
       <div className="peliculasTitleContainer d-flex flex-column justify-content-center align-items-left container-fluid ">
         <h1 className="display-6  fw-bold pb-0">PELICULAS</h1>
-        <p className="col-md-8 fw-normal"> Selecciona la películas que quieras</p>
+        <p className="col-md-8 fw-normal"> Selecciona la película que quieras</p>
       </div>
 
         <div className="peliculasContainer">
