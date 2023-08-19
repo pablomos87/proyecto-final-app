@@ -245,6 +245,7 @@
         padding-bottom: 30%;
         justify-content:center;
         text-align: center;
+        align-items: center;
     }
 
     .searchUserInputContainer {
