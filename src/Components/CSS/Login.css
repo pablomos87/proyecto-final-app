@@ -143,21 +143,23 @@
     }
 
     .loginTitleContainer p {
-        font-size: 3vw;
+        font-size: 3.3vw;
     }
 
     .formContainer {
-        font-size: 2.1vw;
+        font-size: 3.9vw;
+        width: 80%;
+        height: 90%;
     }
 
     .inputContainer Input {
       
-        font-size: 2.1vw;
+        font-size: 3.3vw;
     
     }
 
     .formButton {
-        font-size: 2.1vw;
+        font-size: 3.3vw;
         font-weight: bold;
     }
 }

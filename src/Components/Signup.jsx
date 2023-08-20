@@ -188,7 +188,7 @@ const Signup = () => {
                   value={generoUsuario}
                   onChange={(e) => setGeneroUsuario(e.target.value)}
                   require>
-                  <option value="">Selecciona una opción</option>
+                  <option value="">Elige una opción</option>
                   <option value="masculino">Masculino</option>
                   <option value="femenino">Femenino</option>
                   <option value="otro">Otro</option>

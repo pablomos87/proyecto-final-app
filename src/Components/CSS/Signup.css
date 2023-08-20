@@ -119,7 +119,8 @@ font-size: 1vw;
 }
 button {
     padding: 0.1vw 0.8vw;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    font-weight: bold;
     text-align: center;
     background-color:  #273a4d;
     color: #f8f8f8;
@@ -131,7 +132,7 @@ button {
 .signUpFormContainer label,
 .signUpFormContainer select
 {
-    font-size: 1.1vw;
+    font-size: 1.5vw;
 }
 
 
@@ -202,7 +203,7 @@ button {
     .signUpFormContainer {
 
         
-        width: 85vw;
+        width: 96vw;
         height: auto;
         
         
@@ -213,20 +214,23 @@ button {
     .signUpFormContainer label,
     .signUpFormContainer select
     {
-        font-size: 2.1vw;
+        font-size: 3.7vw;
     }
 
     .signUpInputsContainer {
-        width: 32vw;
-        padding: 0.2vw;
+        width: 44vw;
+        padding-bottom: 2vw;
+        padding: 0.7vw;
         margin-right: 1vw;
         height: auto;
+        
         
         
     }
     button {
         
-        font-size: 2.4vw;
+        font-size: 3.3vw;
+        padding-bottom: 2%;
     }
 
 

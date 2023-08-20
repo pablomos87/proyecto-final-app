@@ -21,15 +21,15 @@ const Footer = () => {
           </Col>
           <Col xs={12} md={4} className="text-center">
             <h5 className="textTitleFooter">Síguenos en redes sociales</h5>
-            <div className="d-flex justify-content-center">
+            <div className="footerFaIcons d-flex justify-content-center">
               <a href="https://www.facebook.com/miproyecto" className="me-3">
-                <FaFacebook size="2.5vw" color="white" />
+                <FaFacebook  color="white" />
               </a>
               <a href="https://www.twitter.com/miproyecto" className="me-3">
-                <FaTwitter size="2.5vw" color="white" />
+                <FaTwitter  color="white" />
               </a>
               <a href="https://www.instagram.com/miproyecto">
-                <FaInstagram size="2.5vw" color="white" />
+                <FaInstagram color="white" />
               </a>
             </div>
           </Col>

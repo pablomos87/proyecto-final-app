@@ -62,7 +62,7 @@
     padding: 0.70vw 1vw;
     font-weight: bold;
     margin-top: 20%;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 
 .dropdownToggleContainer {
@@ -221,6 +221,11 @@
         height: 2.500;
     }
 
+    .ulUserContainer {
+        width: 85%; 
+
+    }
+
     .liUserContainer {
         
         margin-right: 0.0113rem;
@@ -229,20 +234,24 @@
     .liUserContainer a {
        
         font-size: 2.6vw;
+        margin-right: 5%;
     }
 
     .dropdownToggleBtn {
 
     font-size: 2.6vw;   
  }
+ .dropdownToggleContainer {
+    
+    width: 50%;
+    
+}
 
- .dropdownMenu {
-
- }
+ 
     .dropdownMenu a {
         
-        font-size: 2.1vw;
-        padding-bottom: 30%;
+        font-size: 2.7vw;
+        padding-bottom: 50%;
         justify-content:center;
         text-align: center;
         align-items: center;
@@ -254,12 +263,14 @@
         border-radius: 1.5625rem;
         height: 3.6vw;
         width: 100%;
-        font-size: 2.1vw;
-        margin-bottom: 20%;
+        font-size: 2.5vw;
+        padding-top: 1%;
+        margin-bottom: 30%;
     }
 
 }  .searchInputUser {
     margin-left: 8%;
+    
     
 }
 
@@ -330,10 +341,9 @@
     }
     
     .dropdownMenu {
-       
         padding-top: 5%;
         width: 49%;
-          
+
     }
     .dropdownMenu a {
         padding: 0;

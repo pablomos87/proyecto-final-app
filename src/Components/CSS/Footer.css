@@ -24,6 +24,10 @@
     color: white;
 }
 
+.footerFaIcons a {
+    font-size: 2vw;
+}
+
 @media (max-width: 800px) {
 
     .textTitleFooter {
@@ -37,6 +41,9 @@
     
     .listFooter {
         font-size: 1.8vw; 
+    }
+    .footerFaIcons a {
+        font-size: 3vw;
     }
 }
 
@@ -54,6 +61,9 @@
     
     .listFooter {
         font-size: 3vw; 
-       
+    }
+
+    .footerFaIcons a {
+        font-size: 4vw;
     }
 }
