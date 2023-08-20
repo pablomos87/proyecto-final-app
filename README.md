@@ -1,8 +1,8 @@
 # Proyecto Final
-### Sitio dedicado a la valoración y crítica de películas.
+### Sitio dedicado a la valoración y crítica de películas
 #
 
-¡Bienvenido/a al Proyecto Final! Este proyecto presenta la estructura inicial de una aplicación que permita el intercambio de opiniones y experiencias sobre películas y cine en general, desarrollada en React. La idea es la aplicación permita a los usuarios registrados compartir reseñas y valoraciones, seguir a otros usuarios, y contar con un diario de las películas vistas y crear una lista de películas por ver. A su vez, que les permita evaluar películas en una escala de cinco estrellas, consultar valoraciones del resto de los usuarios, así como compilar, compartir y consular listas de películas organizadas según diversos criterios.
+¡Bienvenido/a al Proyecto Final! Este proyecto presenta la estructura inicial de una aplicación dedicada el intercambio de opiniones y experiencias sobre películas y cine en general, desarrollada en React. La idea es la aplicación permita a los usuarios registrados compartir reseñas y valoraciones, seguir a otros usuarios, y llevar a cabo un registro de las películas vistas y de las películas por ver. A su vez, que permita a los usuarios evaluar películas en una escala de cinco estrellas, consultar valoraciones de otros usuarios, y compilar, compartir y consular diferentes listas de películas, organizadas según diversos criterios.
 
 #
 ### Autores 
@@ -25,12 +25,12 @@ Por el momento la aplicación cuenta con cuatro funciones:
 ### Tecnologías utilizadas
 
 Las tecnologías utilizadas son:
--React
--React Router Dom
--Bootstrap
--FontAwesome
--React Icons
--The Movie Database (TMDb) API
+* React
+* React Router Dom
+* Bootstrap
+* FontAwesome
+* React Icons
+* The Movie Database (TMDb) API
 
 ### Uso
 
