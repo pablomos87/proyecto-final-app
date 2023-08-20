@@ -36,7 +36,7 @@ const Home = () => {
                 <div className="featuresContainer">
                     <div className="rowFeaturesContainer row">
                         <div className="feature">
-                            <p>Lleva un registro de cada película que hayas visto.</p>
+                            <p>Lleva un registro de cada película que hayas visto y de todas las revisiones que hayas hecho.</p>
                         </div>
                         <div className="feature">
                             <p>Muestra tu amor por tus películas favoritas, listas y reseñas con un "me gusta".</p>

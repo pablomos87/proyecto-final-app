@@ -257,11 +257,13 @@ header {
     .navbar-collapse {
         margin: 0%;
         padding: 0;
+        
     }
 
     .navbar-toggler {
         padding: 0;
         margin: 0;
+        
 
     }
 
@@ -271,12 +273,14 @@ header {
         justify-content: center;
         align-items: center;
         margin: 0;
+        
     }
 
     .toggleContainer button {
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
 }
 

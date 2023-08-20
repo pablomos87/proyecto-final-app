@@ -124,7 +124,11 @@ main {
     padding: 10px;
     margin: 8px;
     box-sizing: border-box;
+    display: flex;
     justify-content: center;
+    align-content: center;
+    
+    height: auto;
 }
 
 .feature p {
@@ -133,8 +137,6 @@ main {
     margin: 0;
     padding-top: 3%;
     padding-bottom: 3%;
-    text-align: center;
-    
     
 }
 
@@ -348,17 +350,17 @@ background-color: rgba(0, 0, 0, 0.6);
     
     .textReviewContainer {
         
-        width: 38vw;
-        padding-left: 1%;
-        height: 44vw;
+        width: 42vw;
+        padding-left: 2%;
+        height: 47vw;
         
     }    
 
     .imageReviewContainer img {
         width: 20vw;
-        height: 30vw;
+        height: 31vw;
         padding-top: 12%;
-        margin-right: 5%;
+        margin-right: 3%;
     
     }
 

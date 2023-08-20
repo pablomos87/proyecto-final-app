@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Proyecto Final
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitio dedicado a la valoración y crítica de películas.
 
-## Available Scripts
+#
+¡Bienvenido/a al Proyecto Final! Este proyecto presenta la estructura inicial de una aplicación que permita el intercambio de opiniones y experiencias sobre películas y cine en general, desarrollada en React. La idea es la aplicación permita a los usuarios registrados compartir reseñas y valoraciones, seguir a otros usuarios, y contar con un diario de las películas vistas y crear una lista de películas por ver. A su vez, que les permita evaluar películas en una escala de cinco estrellas, consultar valoraciones del resto de los usuarios, así como compilar, compartir y consular listas de películas organizadas según diversos criterios.
 
-In the project directory, you can run:
 
-### `npm start`
+## Autores 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pablo Moscón
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Características 
 
-### `npm test`
+Por el momento la aplicación cuenta con cuatro funciones:
+1. Acceder a películas ordenadas por cuatro criterios diferentes: las más populares, los estrenos recientes, las recomendadas por el sitio y las películas que están en este momento en la cartelera de cine. 
+2. Consultar el ranking general de puntuaciones dado por los usuarios a las diferentes películas.
+3. Registrarse en el sitio, completando un formulario, y acceder al perfil personal.
+4. Ingresar al sitio como usuario, e ingresar al perfil del usuario. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+•	React
+•	React Router Dom
+•	Bootstrap
+•	FontAwesome
+•	React Icons
+•	The Movie Database (TMDb) API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Uso
 
-### `npm run eject`
+1.	Clona este repositorio en tu máquina local utilizando el siguiente comando. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/pablomos87/proyecto-final-app
+2.	Instala las dependencias usando el siguiente comando:
+npm install
+3.	Ejecuta la aplicación utilizando el siguiente comando:
+npm install
+El proyecto se iniciará en tu navegador en la dirección http://localhost:3000.
+4. La aplicación también estará disponible en: 
+https://proyecto-final-app.vercel.app/Home
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Capturas de Pantalla
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   
+ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
