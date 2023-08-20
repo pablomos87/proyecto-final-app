@@ -14,8 +14,11 @@ Pablo Moscón
 
 Por el momento la aplicación cuenta con cuatro funciones:
 1. Acceder a películas ordenadas por cuatro criterios diferentes: las más populares, los estrenos recientes, las recomendadas por el sitio y las películas que están en este momento en la cartelera de cine. 
+
 2. Consultar el ranking general de puntuaciones dado por los usuarios a las diferentes películas.
+
 3. Registrarse en el sitio, completando un formulario, y acceder al perfil personal.
+
 4. Ingresar al sitio como usuario, e ingresar al perfil del usuario. 
 
 
