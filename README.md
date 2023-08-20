@@ -24,6 +24,8 @@ Por el momento la aplicación cuenta con cuatro funciones:
 
 ### Tecnologías utilizadas
 
+Las tecnologías utilizadas son:
+
 •	React
 •	React Router Dom
 •	Bootstrap
@@ -34,15 +36,24 @@ Por el momento la aplicación cuenta con cuatro funciones:
 
 ### Uso
 
-1.	Clona este repositorio en tu máquina local utilizando el siguiente comando. 
+Para usar este aplicación, podés hacer lo siguiente:
+
+1. Clona este repositorio en tu máquina local utilizando el siguiente comando. 
 
 git clone https://github.com/pablomos87/proyecto-final-app
+
 2.	Instala las dependencias usando el siguiente comando:
+
 npm install
+
 3.	Ejecuta la aplicación utilizando el siguiente comando:
+
 npm install
+
 El proyecto se iniciará en tu navegador en la dirección http://localhost:3000.
+
 4. La aplicación también estará disponible en: 
+
 https://proyecto-final-app.vercel.app/Home
 
 
