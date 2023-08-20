@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import "./CSS/Peliculas.css" 
+import "./CSS/Peliculas.css";
+import { Link } from "react-router-dom";
 
 
 const API_KEY = process.env.REACT_APP_PASSWORD;
@@ -79,11 +80,11 @@ const Peliculas = () => {
                         <div className="itemsContainer">
                             {moviesGroup.map((movie) => (
                                 <div className="image" key={movie.id}>
+                                <Link to= "/in-construction-site">
                                     <img
                                         src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
-                                        alt={movie.title}
-                                    />
-                                   
+                                        alt={movie.title} /> 
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -98,11 +99,11 @@ const Peliculas = () => {
                         <div className="itemsContainer">
                             {moviesGroup.map((movie) => (
                                 <div className="image" key={movie.id}>
-                                    <img
+                                    <Link to= "/in-construction-site">
+                                        <img
                                         src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
-                                        alt={movie.title}
-                                    />
-                                    
+                                        alt={movie.title}/>
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -118,11 +119,12 @@ const Peliculas = () => {
                         <div className="itemsContainer">
                             {moviesGroup.map((movie) => (
                                 <div className="image" key={movie.id}>
+                                    <Link to= "/in-construction-site">
                                     <img
                                         src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
                                         alt={movie.title}
                                     />
-                                    
+                                    </Link>
                                 </div>
                             ))}
                         </div>
@@ -138,11 +140,11 @@ const Peliculas = () => {
                         <div className="itemsContainer">
                             {moviesGroup.map((movie) => (
                                 <div className="image" key={movie.id}>
-                                    <img
+                                    <Link to= "/in-construction-site"> <img
                                         src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
                                         alt={movie.title}
                                     />
-                                   
+                                   </Link>
                                 </div>
                             ))}
                         </div>

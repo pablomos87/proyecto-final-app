@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./CSS/Ranking.css";
 import ListGroup from 'react-bootstrap/ListGroup';
 import { Image, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 const API_KEY = process.env.REACT_APP_PASSWORD;
@@ -40,11 +41,12 @@ const Ranking = () => {
               
                 <Row className= "movieListRow">
                   <Col xs={4} className="colImgContainer">
+                  <Link to= "/in-construction-site">
                     <Image
                       src={`${IMAGE_BASE_URL}${movie.poster_path}`}
                       alt={`{movie.title}`}
                       className="movieImg align-items-center "
-                    />
+                    /></Link>
                   </Col>
                   <Col className= "colTextContainer align-items-center align-content-center text-align-center w-50 ">
                   <ListGroup.Item className="movieListGroup movie-title align-items-center align-content-center border-0  fw-bold">

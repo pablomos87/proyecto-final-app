@@ -36,6 +36,7 @@ main {
     height: 48.6w;
 }
 
+
 .featuredImageContainer {
     position: relative;
     width: 100%;
@@ -123,17 +124,18 @@ main {
     padding: 10px;
     margin: 8px;
     box-sizing: border-box;
-    text-align: center;
     justify-content: center;
-    align-items: center;
 }
 
 .feature p {
-    font-size: 1.4vw;
-    font-weight: 400;
+    font-size: 1.5vw;
+    font-weight: 600;
     margin: 0;
     padding-top: 3%;
     padding-bottom: 3%;
+    text-align: center;
+    
+    
 }
 
 .recentReviewsContainer {
@@ -193,8 +195,8 @@ background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imageReviewContainer img {
-    width: 10vw;
-    height: 14vw;
+    width: 14vw;
+    height: 16vw;
 }
 
 .textReviewContainer {
@@ -202,7 +204,8 @@ background-color: rgba(0, 0, 0, 0.6);
     padding-left: 2%;
     padding-right: 2%;
     color: #ccc;
-    width: 28vw;
+    width: 33vw;
+    
     
 }
 
@@ -216,14 +219,14 @@ background-color: rgba(0, 0, 0, 0.6);
 }
 
 .textReviewContainer h5 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     width: 100%;
     text-align: justify;
     font-weight: bold;
 }
 
 .textReviewContainer p {
-    font-size: 1vw;
+    font-size: 1.1vw;
     text-align: justify;
 }
 
@@ -316,7 +319,8 @@ background-color: rgba(0, 0, 0, 0.6);
 
 .imageTextContainer {
     top: 60%;
-    width: 100vw;   
+    width: 100vw;  
+   
 }
 
     .imageTextContainer h1 {
@@ -326,9 +330,11 @@ background-color: rgba(0, 0, 0, 0.6);
     .imageTextContainer p {
         font-size: 3vw;
     }
-
-    .featuredImageContainer img {
+   
+ 
+.featuredImageContainer img {
         height: 55vw;
+        
     }
 
     .featureTitle h2 {
@@ -345,12 +351,15 @@ background-color: rgba(0, 0, 0, 0.6);
         width: 38vw;
         padding-left: 1%;
         height: 44vw;
-    }
-    .imageReviewContainer img {
-        width: 18vw;
-        height: 30vw;
-        padding-top: 10%;
         
+    }    
+
+    .imageReviewContainer img {
+        width: 20vw;
+        height: 30vw;
+        padding-top: 12%;
+        margin-right: 5%;
+    
     }
 
 
