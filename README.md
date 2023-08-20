@@ -31,7 +31,7 @@ Las tecnologías utilizadas son:
 * FontAwesome
 * React Icons
 * The Movie Database (TMDb) API
-
+#
 ### Uso
 
 Para usar este aplicación, podés hacer lo siguiente:
@@ -54,7 +54,7 @@ El proyecto se iniciará en tu navegador en la dirección http://localhost:3000.
 
 https://proyecto-final-app.vercel.app/Home
 
-
+#
 ### Capturas de Pantalla
 
 
