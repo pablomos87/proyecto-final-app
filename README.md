@@ -25,13 +25,15 @@ Por el momento la aplicación cuenta con cuatro funciones:
 ### Tecnologías utilizadas
 
 Las tecnologías utilizadas son:
+#
+# React
+# React Router Dom
+# Bootstrap
+# FontAwesome
+# React Icons
+# The Movie Database (TMDb) API
+#
 
-•	React
-•	React Router Dom
-•	Bootstrap
-•	FontAwesome
-•	React Icons
-•	The Movie Database (TMDb) API
 
 
 ### Uso
