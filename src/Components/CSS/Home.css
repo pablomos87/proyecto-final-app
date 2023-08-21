@@ -127,7 +127,6 @@ main {
     display: flex;
     justify-content: center;
     align-content: center;
-    
     height: auto;
 }
 
@@ -137,6 +136,8 @@ main {
     margin: 0;
     padding-top: 3%;
     padding-bottom: 3%;
+    text-align: center;
+
     
 }
 
@@ -346,6 +347,7 @@ background-color: rgba(0, 0, 0, 0.6);
     .feature p {
         font-size: 2vw;
         text-align: center;
+        justify-content: center;
     }
 
     
