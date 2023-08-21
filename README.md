@@ -57,12 +57,10 @@ https://proyecto-final-app.vercel.app/Home
 #
 ### Capturas de Pantalla
 
+![Image text](https://github.com/pablomos87/proyecto-final-app/blob/main/Capures/capture-1.png);
 
- 
+![Image text](https://github.com/pablomos87/proyecto-final-app/blob/main/Capures/capture-2.png);
 
-   
- 
+![Image text](https://github.com/pablomos87/proyecto-final-app/blob/main/Capures/capture-3.png);
 
-
-
-
+![Image text](https://github.com/pablomos87/proyecto-final-app/blob/main/Capures/capture-4.png);
